@@ -5,7 +5,7 @@ on:
     types: [opened, closed, reopened, labeled, unlabeled]
   workflow_dispatch:
   schedule:
-    - cron: '0 21 * * *'  # 每天UTC 21:00 (北京时间05:00)
+    - cron: '0 */6 * * *'  # 每6小时更新（推荐）：0点、6点、12点、18点
 
 jobs:
   links-checker:

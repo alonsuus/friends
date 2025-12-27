@@ -1,0 +1,20 @@
+name: Feed Posts Parser
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 21 * * *'  # 每天UTC 21:00 (北京时间05:00)
+
+jobs:
+  feed-parser:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    
+    steps:
+      - name: Parse RSS Feeds
+        uses: xaoxuu/feed-posts-parser@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          max_posts: 3  # 获取最新3篇文章

@@ -3,27 +3,13 @@
   "content": [
     {
       "title": "SUUS",
-      "url": "https://suus.me",
-      "screenshot": "https://weavatar.com/avatar/5b986063afb0ee2d78abd40defe3aec607d812b372093008646e137f61023869?sha256=1&d=mp&s=240",
-      "description": "A nook where thoughts & ideas sometimes echo",
-      "feed": "https://suus.me/atom.xml",
+      "url": "https://www.eallion.com/",
+      "screenshot": "https://www.eallion.com/eallion.webp",
+      "description": "机会总是垂青于有准备的人",
+      "feed": "https://www.eallion.com/index.xml",
+      "posts": [],
       "issue_number": 1,
-      "labels": [
-        {
-          "name": "status:403",
-          "color": "ededed",
-          "hue": 0,
-          "saturation": 0,
-          "lightness": 93
-        },
-        {
-          "name": "失联",
-          "color": "ededed",
-          "hue": 0,
-          "saturation": 0,
-          "lightness": 93
-        }
-      ],
+      "labels": [],
       "icon": "https://avatars.githubusercontent.com/u/239536510?v=4"
     }
   ]

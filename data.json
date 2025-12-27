@@ -1,27 +1,4 @@
 {
   "version": "v2",
-  "content": [
-    {
-      "title": "大大的小蜗牛",
-      "url": "https://www.eallion.com/",
-      "screenshot": "https://www.eallion.com/eallion.webp",
-      "description": "机会总是垂青于有准备的人",
-      "feed": "https://www.eallion.com/index.xml",
-      "posts": [
-        {
-          "title": "Ubuntu 25.10 安装和配置",
-          "link": "https://www.eallion.com/ubuntu2510/",
-          "published": "2025-11-11 08:16"
-        },
-        {
-          "title": "秋假",
-          "link": "https://www.eallion.com/holiday-in-autumn/",
-          "published": "2025-11-01 00:00"
-        }
-      ],
-      "issue_number": 1,
-      "labels": [],
-      "icon": "https://avatars.githubusercontent.com/u/239536510?v=4"
-    }
-  ]
+  "content": []
 }
